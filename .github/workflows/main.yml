@@ -1,0 +1,14 @@
+name: FirstFlow Actions
+
+
+on:
+    push:
+       branches: [ main ]
+
+jobs:
+  demo:
+     runs-on: ubuntu-latest
+
+   steps:
+     - name: Good
+      run: echo "First Flow ACtions"
